@@ -1,0 +1,82 @@
+body, html {
+
+    height: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+
+}
+
+.nav {
+
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-bottom: 10px;
+
+}
+
+.nav a {
+
+    justify-content: flex-start;
+    font-size: 25px;
+    color: white;
+    font-family: Georgia;
+    text-decoration: none;
+
+}
+
+.parallax1 { 
+    /* The image used */
+    background-image: url('../Images/DuskSky.JPG');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 { 
+    /* The image used */
+    background-image: url('../Images/Dusk2.JPG');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 0px;
+
+}
+
+div p {
+
+    font-family: Georgia;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
